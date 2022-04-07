@@ -69,6 +69,9 @@ btn.addEventListener('click', (event) => {
 	event.preventDefault();
 	const h2Input = dealNameInput.value
 	const pInput = marksInput.value
+	dealNameInput.value = ''
+	marksInput.value = ''
+
 	createDeal(h2Input, pInput)
 })
 
