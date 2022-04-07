@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 40px;
+  position: fixed;
+  width: 100%;
+}
+.wrapper header .dealYes, .wrapper header .dealNo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: center;
+          flex-direction: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+  height: 100%;
+}
+.wrapper header .dealYes {
+  background-color: green;
+}
+.wrapper header .dealNo {
+  background-color: red;
+}
+.wrapper .section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.wrapper .section .inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 70%;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+.wrapper .section .inputs div {
+  text-align: center;
+}
+.wrapper .section .inputs div p {
+  margin-left: auto;
+  margin-right: auto;
+}
+.wrapper .section .inputs input, .wrapper .section .inputs button, .wrapper .section .inputs div {
+  margin: 3px;
+  padding: 3px;
+}
+.wrapper .section .inputs #button {
+  border: 3px solid orange;
+  background-color: transparent;
+  color: orange;
+  font-size: 20px;
+  cursor: pointer;
+}
+.wrapper .section .inputs #button:hover {
+  background-color: #e6c294;
+  color: #66be3d;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.deals .deal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #374470;
+  margin-bottom: 5px;
+}
+.deals .deal .inputInfo {
+  width: 90%;
+  padding-left: 20px;
+}
+.deals .deal .inputInfo .inputName {
+  padding: 4px;
+  font-size: 20px;
+}
+.deals .deal .inputInfo .inputMark {
+  padding: 10px;
+}
+.deals .deal .labels {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #377053;
+  font-size: 25px;
+}
+.deals .deal .labels .yes {
+  padding: 10px;
+  background-color: green;
+  height: 50%;
+}
+.deals .deal .labels .no {
+  height: 50%;
+  padding: 10px;
+  background-color: red;
+}
